@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "SurfTab",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery.js"]
+    }
+  ],
+  "browser_action": {
+  "default_icon": "icon1000.png"
+},
+"icons": { "16": "icon1000.png",
+           "48": "icon1000.png",
+          "128": "icon1000.png" },
+"chrome_url_overrides" : {
+    "newtab": "open_tab_to.html"
+  },
+  "background" : {
+      "scripts" : ["background.js"]
+    }
+}

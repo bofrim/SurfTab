@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="jquery.js"></script>
+      <title>SurfTab</title>
+      <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+      <script type="text/javascript" src="surfTabScript.js"></script>
+    </head>
+    <body onesize="setCircleSize">
+      <div id="locationMenu"></div>
+      <div id="cam_button">
+        <p id="buttontext">Next Spot</p>
+        <!--<a id="credit" href="http://magicseaweed.com"><img src="http://im-1-uk.msw.ms/msw_powered_by.png"></a>-->
+
+      </div>
+      <iframe id = "stream" src="http://e.cdn-surfline.com/syndication/embed/v1/player.html?id=4750" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <div id = "label"><a href="http://www.surfline.com/surf-report/pipeline-oahu_4750/" target="_blank" title="Pipeline Surf Report and HD Surf Cam">Pipeline</a><a href="http://www.surfline.com" target="_blank" title="Surfline.com - Global Surf Reports, Surf Forecasts, Live Surf Cams and Coastal Weather"></a></div>
+      <div class="container" id="circleHolder">
+        <button class = "dataCircle">
+          <span class="descriptor">Height:</span><br><span id="heightVal">--</span>
+        </button>
+        <button class = "dataCircle">
+          <span class="descriptor">Wind Speed:</span><br><span id="windVal">--</span>
+        </button>
+        <button class = "dataCircle">
+          <span class="descriptor">Temperature:</span><br><span id="currTemp">--</span>
+        </button>
+      </div>
+    </body>
+</html>

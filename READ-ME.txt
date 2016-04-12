@@ -1,0 +1,33 @@
+SurfTab
+
+Brad Ofrim
+March 23, 2016
+
+
+
+Description:
+  This Chrome extension uses the embedded links from the Surfline website to
+  create a new tab that will open to a live stream of some of the best surf
+  in the world. The elements on the right display current conditions.
+  Click the top bar to change locations. Click on the data circles to link to
+  the Surfline website.
+
+
+Set up instructions:
+  - open Google Chrome
+  - navigate to the url: chrome://extensions
+  - click the check box "Developer mode" near the top right side of the screen
+  - click the button "Load Unpacked Extensions..."
+  - navigate to the folder containing the files for the extension
+  - select this folder
+  - open a new tab and enjoy!
+
+Removal instructions:
+  - open Google Chrome
+  - navigate to the url: chrome://extensions
+  - click the garbage can next to the "SurfTab" section
+
+
+Future updates:
+  - add the option to specify which beaches are viewed
+  - add a more attractive  and useful top button
